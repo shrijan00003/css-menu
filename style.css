@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix{
+	clear: both;
+	content: "";
+	display: table;
+}
+.main-wrapper{
+	width: 100%;
+}
+.header-wrapper{
+	background-color: lightblue;
+	width: 100%;
+}
+.page-wrapper{
+	width: 80%;
+	margin: 0px auto;
+}
+.brand-name{
+	background-color: darkred;
+	float: left;
+}
+.main-nav{
+	float: left;
+	background-color: #274b54;
+}
+.brand-name h1{
+	font-size: 38px;
+	color: white;
+	padding:2px 0px 3px 0px;
+}
+
+.main-nav ul li {
+	float: left;
+	list-style-type: none;
+	padding: 15px 20px;
+	width:auto;
+	position: relative;
+}
+
+.main-nav ul li:hover{
+	background-color: #49adc6;
+}
+
+.main-nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+/*.main-nav ul li:hover{
+	background-color: #109bbe;
+}*/
+
+.main-nav ul li ul{
+	display: none;
+	margin-top: 15px;
+	left:0;
+
+}
+.main-nav ul li ul li{
+	float:none;
+}
+.main-nav ul li:hover ul{
+	display:block;
+	position: absolute;
+	background-color: #274b54;
+	width:141px;
+}
+
+.main-nav ul li ul li:hover{
+	background-color:  #49adc6;
+}
+
+.main-nav ul li ul li ul.third-level-menu{
+	display: none;
+	/*margin-top: 15px;*/
+	left: 0px;
+}
+.main-nav ul li ul li:hover ul{
+	display: block;
+	position: absolute;
+	left: 141px;
+	top: -15px;
+	background-color: #274b54;
+	width: 120px;
+}
+
+
+.drop-icon img{
+	width: 16px;
+	height: 16px;
+	float: right;
+	padding-left: 5px;
+}
+ 
